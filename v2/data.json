@@ -1,0 +1,40 @@
+{
+  "version": "v2",
+  "content": [
+    {
+      "title": "Chenli",
+      "url": "https://chenliss.cn/",
+      "avatar": "https://bu.dusays.com/2023/08/17/64dcf6a805f44.png",
+      "screenshot": "",
+      "description": ""
+    },
+    {
+      "title": "小孙同学",
+      "url": "https://blog.sunguoqi.com",
+      "avatar": "https://blog.sunguoqi.com/upload/avatar.png",
+      "screenshot": "https://blog.sunguoqi.com/upload/screenshot.png",
+      "description": "热爱可抵漫长岁月"
+    },
+    {
+      "title": "YuZhangWang的领域",
+      "url": "https://yuzhang.wang/",
+      "avatar": "https://gcore.jsdelivr.net/gh/YuZhangWang/Creative-pictures02/2022/04/18/20220418175156528.jpg",
+      "screenshot": "",
+      "description": "PLUSULTRA!"
+    },
+    {
+      "title": "星日语",
+      "url": "https://weekdaycare.cn/",
+      "avatar": "https://api.iconify.design/line-md:sunny-outline-twotone-loop.svg?color=%23eb4600",
+      "screenshot": "",
+      "description": "星语日点灯"
+    },
+    {
+      "title": "xaoxuu",
+      "url": "https://xaoxuu.com",
+      "avatar": "https://cdn.jsdelivr.net/gh/cdn-x/xaoxuu/avatar/rect-256@2x.png",
+      "screenshot": "https://i.loli.net/2020/08/21/VuSwWZ1xAeUHEBC.jpg",
+      "description": "stellar 主题作者"
+    }
+  ]
+}
