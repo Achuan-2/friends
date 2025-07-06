@@ -27,12 +27,15 @@
 当你添加本站友链时，建议复制以下信息：
 
 ```yaml
-title: xaoxuu
-url: https://xaoxuu.com
-avatar: https://cn.cravatar.com/avatar/15e59a60168a6ce1bfc3eddfca8c5a54?s=512
-screenshot: https://xaoxuu.com/assets/xaoxuu/2022/10/23/63542895cfd29.png
-description: For all time, always.
-feed: https://xaoxuu.com/atom.xml
+{
+    "title": "Achuan-2",
+    "url": "https://achuan-2.github.io/",
+    "avatar": "https://fastly.jsdelivr.net/gh/Achuan-2/Picbed@pic/assets/1666805474234Achuan.jpg",
+    "screenshot": "https://fastly.jsdelivr.net/gh/Achuan-2/Picbed@pic/assets/1666805527244Snipaste_2022-10-27_01-31-59.png",
+    "description": "一条没有故事的巛",
+    "keywords": "生物信息, 编程"
+}
+
 ```
 
 > 头像地址末尾的 `s=512` 是尺寸，如果显示框架较小可以自行调节至合适的尺寸。
