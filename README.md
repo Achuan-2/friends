@@ -33,7 +33,8 @@
     "avatar": "https://fastly.jsdelivr.net/gh/Achuan-2/Picbed@pic/assets/1666805474234Achuan.jpg",
     "screenshot": "https://fastly.jsdelivr.net/gh/Achuan-2/Picbed@pic/assets/1666805527244Snipaste_2022-10-27_01-31-59.png",
     "description": "一条没有故事的巛",
-    "keywords": "生物信息, 编程"
+    "keywords": "生物信息, 编程",
+    "feed": "https://achuan-2.github.io/atom.xml",
 }
 
 ```
