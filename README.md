@@ -1,119 +1,38 @@
-# Issues-Json Generator
+**申请前须知**
 
-> [!IMPORTANT]
-> 本项目已经归档不再维护，请使用功能更强大的 [动态友链及链接检查器](https://github.com/xaoxuu/links-checker) 使用方法更简单！还支持搭配 [友链文章订阅](https://github.com/xaoxuu/feed-posts-parser) 功能。
- 
+- 本站友链均为动态友链，页面加载后通过请求接口渲染出友链数据。
+- 本站友链按最新一篇文章发布时间倒序排序，越活跃的博主就越靠前。
+- 没有 feed 链接的可能会排在最后。
+- 本站仅定期解析 feed 地址，不会爬取其它地址。
 
-这是一个基于 GitHub 的自动化工具，自动提取本仓库 issues 中第一段 `JSON` 代码块并保存到仓库中，解决了直接调用 GitHub API 频率有限制以及速度过慢的问题。（你可以通过其它 N 种方式访问仓库文件）
+<br>
 
-应用场景：
-- [收录友链，并定期检查链接是否可访问](https://xaoxuu.com/friends/)
-- [收录主题用户，并定期检查网站是否仍在使用该主题](https://xaoxuu.com/wiki/stellar/examples.html)
+**自助友链申请流程**
 
+1. 确保符合**安全合规**的硬性条件，且不会对本站进行高频爬取。
+2. 提交友链意向申请，如实填写。（此时不必提前添加本站为友链）
+3. 完成友链任务，未完成的不要随意勾选。（如果迟迟没有通过审核，请检查 issue 中列出的任务是否完成。）
+4. 博主审核通过，此时请及时添加本站友链。
 
+<br>
 
-## 快速开始
+**如何提交意向申请？**
 
-1. Fork 本仓库到你的 GitHub 账号下
-2. 修改 `config.js` 文件中的配置信息
-3. 在你的仓库中创建一个新的 Issue 来提交网站信息
+按照 [Issue 模板](https://github.com/xaoxuu/friends/issues/new/choose) 内容填写并提交，当条件均达成后，博主会通过审核，通过后稍等片刻即可在友链页面看到您的友链。
 
-## 功能特点
+<br>
 
-- 自动解析包含网站信息的 GitHub Issues
-- 定期检查网站的可访问性和主题使用状态
-- 自动更新 Issue 标签以反映网站状态
+**本站信息**
 
-## 配置说明
-### 生成器配置
+当你添加本站友链时，建议复制以下信息：
 
-```js
-// config.js
-export const config = {
-  generator: {
-    // 是否启用生成器
-    enabled: true,
-    // 目标仓库地址（格式：用户名/仓库名）
-    repo: 'xaoxuu/hexo-theme-stellar-showcase',
-    // Issue排序方式
-    // updated/created: 更新时间/创建时间
-    sort: 'created',
-    // desc/asc: 降序/升序
-    direction: 'desc',
-    // 需要排除的Issue标签
-    // 包含这些标签的Issue将不会被解析
-    exclude_labels: ["审核中"]
-  }
-}
+```yaml
+title: xaoxuu
+url: https://xaoxuu.com
+avatar: https://cn.cravatar.com/avatar/15e59a60168a6ce1bfc3eddfca8c5a54?s=512
+screenshot: https://xaoxuu.com/assets/xaoxuu/2022/10/23/63542895cfd29.png
+description: For all time, always.
+feed: https://xaoxuu.com/atom.xml
 ```
 
-### 主题检查器配置
-
-```js
-// config.js
-export const config = {
-  theme_checker: {
-    // 是否启用网站主题检查
-    enabled: true,
-    // 包含这些关键词的Issue将被检查
-    include_keyword: '# 站点信息',
-    // 包含这些标签的Issue将不会被检查
-    exclude_labels: ["审核中"],
-    // 主题标识meta标签选择器
-    meta_tag: 'meta[name="hexo-theme"]',
-    // 期望的主题名称
-    theme_name: 'Stellar',
-    // 主题版本号属性名
-    version_attr: 'theme-version',
-    // 主题名称属性名
-    name_attr: 'theme-name',
-    // 主题内容属性名
-    content_attr: 'content',
-
-  }
-}
-```
-
-### 链接检查器配置
-
-```js
-// config.js
-export const config = {
-  link_checker: {
-    // 是否启用链接检查
-    enabled: true,
-    // 包含这些关键词的Issue将被检查
-    include_keyword: '# 友链信息',
-    // 包含这些标签的Issue将不会被检查
-    exclude_labels: ["审核中"],
-    // 目标链接
-    link: 'https://xaoxuu.com',
-  }
-}
-```
-
-## 工作流程
-
-1. **Issue 解析**
-   - 通过 GitHub Actions 定期运行
-   - 解析带有指定标签的 Issues
-   - 从 Issue 内容中提取网站信息
-   - 生成 `v2/data.json` 数据文件
-
-2. **网站检查**
-   - 定期检查所有已收录网站
-   - 验证网站是否使用 Stellar 主题
-   - 检测主题版本信息
-   - 更新 Issue 标签以反映检查结果
-
-## 标签说明
-
-- `审核中`: 网站正在审核中
-- `x.x.x`: 网站正在使用的 Stellar 主题版本号
-- `无效站点`: 网站未使用 Stellar 主题或已失效
-- `无法访问`: 网站无法访问
-- `未添加友链`: 网站未添加友链
-
-## 许可证
-
-[MIT License](LICENSE)
+> 头像地址末尾的 `s=512` 是尺寸，如果显示框架较小可以自行调节至合适的尺寸。
