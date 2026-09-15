@@ -1,0 +1,119 @@
+{
+  "version": "v2",
+  "content": [
+    {
+      "title": "🌹Dominic的二手博客🌹",
+      "url": "https://blog.dominickk.top/",
+      "icon": "https://blog.dominickk.top/upload/avatar.png",
+      "snapshot": "",
+      "description": "写文档使我快乐🍺",
+      "feed": "https://blog.dominickk.top/rss.xml",
+      "posts": [
+        {
+          "title": "Github访问慢？这招快速解决",
+          "link": "https://blog.dominickk.top/archives/3azJDqCQ",
+          "published": "2026-07-17 19:49"
+        },
+        {
+          "title": "windows安装绿色版mysql-多版本安装",
+          "link": "https://blog.dominickk.top/archives/e5FeAqwR",
+          "published": "2026-07-10 19:08"
+        },
+        {
+          "title": "Java Stream API实战技巧：告别繁琐for循环，让代码如丝般顺滑",
+          "link": "https://blog.dominickk.top/archives/VKaleGIV",
+          "published": "2026-03-12 09:12"
+        }
+      ],
+      "issue_number": 9,
+      "labels": []
+    },
+    {
+      "title": "LeiLie",
+      "url": "https://luwin1127.github.io/",
+      "description": "博士生活的碎碎念，记录生活里有趣的、温暖的、难过的事情。",
+      "keywords": "指挥控制，博弈论，仿真，编程",
+      "icon": "https://avatars.githubusercontent.com/u/52486903?v=4",
+      "snapshot": "",
+      "feed": "",
+      "issue_number": 7,
+      "labels": [
+        {
+          "name": "active",
+          "color": "147E0D",
+          "hue": 116,
+          "saturation": 81,
+          "lightness": 27
+        }
+      ]
+    },
+    {
+      "title": "阿黄说",
+      "url": "https://shinianlaojinmao.github.io",
+      "description": "",
+      "icon": "https://avatars.githubusercontent.com/u/186286899?v=4",
+      "snapshot": "",
+      "feed": "",
+      "issue_number": 6,
+      "labels": [
+        {
+          "name": "active",
+          "color": "147E0D",
+          "hue": 116,
+          "saturation": 81,
+          "lightness": 27
+        },
+        {
+          "name": "status:404",
+          "color": "ededed",
+          "hue": 0,
+          "saturation": 0,
+          "lightness": 93
+        },
+        {
+          "name": "失联",
+          "color": "ededed",
+          "hue": 0,
+          "saturation": 0,
+          "lightness": 93
+        }
+      ]
+    },
+    {
+      "title": "Chenli",
+      "url": "https://chenliss.cn/",
+      "description": "",
+      "icon": "https://avatars.githubusercontent.com/u/56148313?v=4",
+      "snapshot": "",
+      "feed": "",
+      "issue_number": 5,
+      "labels": [
+        {
+          "name": "active",
+          "color": "147E0D",
+          "hue": 116,
+          "saturation": 81,
+          "lightness": 27
+        }
+      ]
+    },
+    {
+      "title": "YuZhangWang的领域",
+      "url": "https://yuzhang.wang/",
+      "description": "PLUSULTRA!",
+      "icon": "https://avatars.githubusercontent.com/u/60436214?v=4",
+      "snapshot": "",
+      "feed": "",
+      "issue_number": 3,
+      "labels": [
+        {
+          "name": "active",
+          "color": "147E0D",
+          "hue": 116,
+          "saturation": 81,
+          "lightness": 27
+        }
+      ]
+    }
+  ]
+}
